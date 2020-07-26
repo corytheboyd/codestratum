@@ -20,13 +20,13 @@ body {
 	grid-template-rows: auto 1fr auto;
 }
 
-body>header {
+header {
 	background: red;
 	grid-column: 1 / span 3;
 	grid-row: 1 / 2;
 }
 
-body>main {
+main {
 	padding: 0 calc(var(--space) * 2);
 	padding-bottom: calc(var(--space) * 5);
 	background: blue;
@@ -34,7 +34,7 @@ body>main {
 	grid-row: 2 / span 1;
 }
 
-body>footer {
+footer {
 	background: purple;
 	grid-column: 1 / span 3;
 	grid-row: 3 / span 1;
