@@ -59,6 +59,14 @@ main {
 	background: var(--color-paper-bg);
 }
 
+main>h2 {
+	color: var(--color-primary-1)
+}
+
+main>h3 {
+	color: var(--color-primary-2)
+}
+
 footer {
 	background: var(--color-primary-1);
 	color: white;
