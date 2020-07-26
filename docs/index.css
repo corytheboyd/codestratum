@@ -55,11 +55,24 @@ footer {
 
 /* <coloring> */
 
-main, footer {
+main {
 	background: var(--color-paper-bg);
 }
 
+footer {
+	background: var(--color-primary-1);
+	color: white;
+}
+
 /* </coloring> */
+
+/* <copy> */
+
+p {
+	line-height: 1.75em;
+}
+
+/* </copy> */
 
 /* <brand> */
 
