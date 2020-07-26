@@ -5,4 +5,24 @@
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	display: grid;
+}
+
+.brand {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.brand :first-child {
+	margin-right: calc(var(--space) * 0.5);
+}
+
+.brand img {
+	width: 4em;
+}
+
+.brand h1 {
+	padding: 0;
+	margin: 0;
 }
